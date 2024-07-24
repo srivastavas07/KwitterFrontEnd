@@ -103,7 +103,7 @@ const Profile = () => {
     });
 
     return (
-        <div className="bg-transparent rounded-none sm:w-[50%] w-[100%] py-4 shadow-md overflow-y-auto sm:max-h-[100vh] max-h-[95.5vh] scroll border-right">
+        <div className="bg-transparent rounded-none sm:w-[50%] w-[100%] py-4 shadow-md overflow-y-auto sm:max-h-[100vh] max-h-[90vh] scroll border-right">
             <div className="flex items-center mb-3 px-4">
                 <Link to="/">
                     <button className="bg-transparent border-none focus:outline-none">
