@@ -20,6 +20,6 @@ const useGetNotifications = () => {
     }
     useEffect(() => {
         get_Notifications();
-    }, [refresh]);
+    }, [refresh,get_Notifications]);
 };
 export default useGetNotifications;

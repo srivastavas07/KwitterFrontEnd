@@ -45,7 +45,7 @@ const useGetAllTweets = async (id) => {
             fetchFollowingTweets();
         }
 
-    }, [refresh,isActive]);
+    }, [refresh,isActive,fetchFollowingTweets,fetchAllTweets]);
 };
 
 export default useGetAllTweets;

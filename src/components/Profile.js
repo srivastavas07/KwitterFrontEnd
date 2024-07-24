@@ -34,7 +34,7 @@ const Profile = () => {
     useGetUserTweets(id);
 
     useEffect(() => {
-        if (profile?._id == user?._id) {
+        if (profile?._id === user?._id) {
             setEdit(true);
         } else {
             setEdit(false);
@@ -126,7 +126,7 @@ const Profile = () => {
                     <div className="absolute bottom-0 left-4 transfrom translate-y-1/2">
                         <img
                             src={profile?.profilePhoto === "" || profile?.profilePhoto === null ? (logo) : (profile?.profilePhoto)}
-                            alt="Profile Photo"
+                            alt="Profile-pic"
                             className=" w-36 h-36 rounded-full border-4 border-black"
                         />
                     </div>
