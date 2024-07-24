@@ -25,7 +25,7 @@ function BookmarkSection() {
             }
         };
         fetchBookmarkedTweets();
-    }, [refresh]);
+    }, [refresh,user?._id,dispatch]);
 
 
     return (
